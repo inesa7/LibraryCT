@@ -1,0 +1,58 @@
+08/20/2021
+Review Topic:
+		Class & objects:
+			instance & static
+			constructor
+			static block
+			toString
+			this
+
+		Encapsulation: 
+				private
+				public getters & setters
+
+		Inheritance:
+			Object class
+			extends keyword
+			Is A vs Has A
+			super keyword
+			method overriding
+
+		Final keyword
+
+package name: day48_JavaRecap
+
+Person{
+	
+}
+
+Student extends Person{ // Student is a person
+	
+}
+
+Cybertek{ // Cybertek Has A Person, Cybertek Has A student
+	new Person();
+	new Student()
+}
+
+Person:
+	name, gender, age, DateOfBirth
+
+	eat(), drink(), sleep()
+
+Employee extends Person:
+		employeeId, jobTitle, salary
+		work()
+
+custom classes: 
+		Student extends Person
+		Tester extends Employee
+		Developer extends Employee
+		Teacher extends Employee
+		Mentor extends Employee
+
+
+
+
+
+

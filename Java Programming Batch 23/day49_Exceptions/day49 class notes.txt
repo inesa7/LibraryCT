@@ -1,0 +1,79 @@
+08/26/2021
+Topics: Exceptions & Exception handling
+		
+Package name: day49_Exceptions
+
+Exception:
+	1. checked & unchecked exceptions
+	2. try & catch blocks
+	3. finally block
+	4. throws keyword
+	5. throw keyword
+	6. custom exception 
+
+
+Exception: unexpected or unwanted events
+
+		unchecked exception (unexpected event): occurs during the runtime
+
+					RuntimeException class is the parent of all the unchecked exception
+
+					All the runtime exceptions are unchecked exception
+
+
+		checked exception (unwanted event): occurs during the compile time
+
+					All the exceptions that are not runtime exceptions are checked exception
+
+Exception Handlings:
+		
+		1. try & catch blocks: used for handling both checked and unchecked exceptions
+
+				try{
+					exception code	
+				}catch(ExceptionClass e){
+					statements
+				}
+
+				multi-catch block: parent exception type CAN NOT be placed before child exception type
+
+
+				finally block: always gets executed regardless of the exception
+
+
+	2. throws keyword: used for handling checked exceptions ONLY
+
+
+				 caller of the method will be responsible for handling the exception
+
+
+	throw keyword: manually throw an exception
+		
+		throw ObjectOfException
+
+
+Custom exceptions:
+	1. how to create custom unchecked exception?
+			by inheriting RuntimeException class
+
+
+	2. how to create custom checked exception?
+			by inheriting Exception class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

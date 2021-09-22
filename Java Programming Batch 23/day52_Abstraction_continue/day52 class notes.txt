@@ -1,0 +1,183 @@
+09/02/2021
+Topics: Abstraction Continue
+				Interface
+				Interface vs class
+
+
+package name: day52_Abstraction
+
+2 ways of achieving abstraction:
+		1. abstract class
+		2. interface
+
+
+Interface (not a class): blue print of the class
+						specifies the actions/behaviors that the class need to implement
+
+						public is the only access modifier
+Shape:
+	Interface Volume:
+		volume();
+	
+	Abstract Shape
+		area();
+		perimeter();
+
+
+	Circle extends Shape
+			area(){ r*r*PI }
+			perimeter(){ }
+
+	Rectangle extends Shape
+			area(){ l * w }
+			perimeter(){ }
+
+	Square extends Shape
+			area(){ s *s  }
+			perimeter(){ }
+
+	Triangle extends Shape
+			area(){  }
+			perimeter(){  }
+
+	Cube extends Shape implements Volume
+			area(){  }
+			perimeter(){  }
+			volume(){ }
+
+	Cylinder extends Shape implements Volume
+			area(){  }
+			perimeter(){  }
+			volume(){ }
+
+	Taurus extends Shape implements Volume
+			area(){  }
+			perimeter(){  }
+			volume(){ }
+
+	Sphere extends Shape implements Volume
+			area(){  }
+			perimeter(){  }
+			volume(){ }
+
+
+AnimalTask:
+	Interface Swimmable
+			swim();
+
+	Interface Flyable
+			fly();
+
+	Interface Wild
+		hunt();
+
+	Interface Playable
+		play();
+
+		
+	Abstract Animal:
+		eat();
+		sleep();
+		drink();
+
+
+	Dog extends Animal implements Playable  (4 methods are inherited)
+
+	Cat extends Animal implements Playable (4 methods are inherited)
+
+	Cow extends Animal  implements Playable (4 methods are inherited)
+
+	Horse extends Animal implements Playable (4 methods are inherited))
+
+	Lion extends Animal implements Wild (4 methods are inherited)
+
+	Tiger extends Animal implements Wild (4 methods are inherited)
+
+	Eagle extends Animal implements Wild, Flyable  (5 methods are inherited)
+
+	Falcon extends Animal implements Wild, Flyable (5 methods are inherited)
+
+	Parrot extends Animal  implements Playable, Flyable (5 methods are inherited)
+
+	Shark extends Animal implements Wild, Swimmable (5 methods are inherited)
+
+	Dolphin extends Animal implements Playable, Wild, Swimmable (6 methods are inherited)
+
+	Duck extends Animal implements Playable, Flyable, Swimmable (6 methods are inherited)
+
+	Java extends Animal implements Playable, Flyable, Swimmable, wild
+
+
+AirPlane implements Flyable
+
+Person implements Swimmable, Playable
+
+Boat implements Swimmable
+
+
+CarTask:
+	
+	interface AutoPilot
+		selfDrive();
+
+	interface AutoPark
+		autoPark();
+
+	Abstract Car
+		start();
+		drive();
+
+	Toyota extends Car
+
+	BMW extends Car
+
+	Audi extends Car implement AutoPark
+
+	Mercedes extends Car implement AutoPark
+
+	Tesla extends Car implements AutoPilot, AutoPark
+
+	Nio  extends Car implements AutoPilot, AutoPark
+
+	Bentley extends Car implements AutoPilot, AutoPark
+
+	Cybertek extends Car implements AutoPilot, AutoPark, Swimmable, Flyable
+
+
+
+------------------------------------------------------------------------------------
+
+Interface JavaScriptExecuter{
+	  executerScript()
+
+}
+
+interface TakeScreenSHot{
+	takeScreenShot()
+}
+
+interface WebDriver{
+	get(url);
+	navigate...
+}
+
+Remotedriver implements WebDriver, TakeScreenShot, JavaScriptExecuter
+
+
+ChromeDriver extends Remotedriver
+
+FireFoxDriver extends Remotedriver
+
+OperaDriver extends Remotedriver
+
+
+ChromeDriver driver1 = new ChromeDriver();
+			driver.get(url)
+
+
+FireFoxDriver driver2 = new FireFoxDriver();
+			driver2.get(url)
+
+
+
+

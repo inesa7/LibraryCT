@@ -1,0 +1,269 @@
+
+
+07/13 
+
+Agenda: 
+
+STLC- Bug life cycle 
+
+--------------------
+
+Test case -> describing what to test ? how to test? 
+             Jira -> project management tool to create Test case 
+
+             
+        ID -> unique number , Jira automatically generate ID for each Test case
+                   prm01 , BOA34  
+
+        test case description == test scenario == test case summary _. what to test 
+
+               e.g: 
+			      - login as a admin -> scenario
+			      - login as a student -> scenario
+			      - login as a mentor -> scenario
+
+        Test environment  -> qa env / http://qa.example.com
+
+        pre-condition : 
+
+        test data : input 
+
+        test steps : how to perform the function? 
+
+
+
+
+
+As a user, I want to login to the app. 
+
+    AC: login button should be displayed on the page under the password input box 
+        username box should be displayed
+        password box should be displayed
+
+
+      - login as a admin  -> positive 
+      - login as a student -> positive 
+      - login as a mentor -> positive 
+      - login with invalid username  ---> negative 
+      - login without username or password  --> negative 
+      - login with invalid password  --> negative
+
+
+
+Test case example: 
+  test case ID: can01 
+  test scenario : login as a admin 
+  test environment : qa env -> http://qa.canvas.com/login
+  test data : username: admin01, admin02. admin23 
+              password: 123abc
+
+  test steps: 
+             step1: user go to login page
+             step2: user enter username & password
+             step3: user click login button
+             step4: verify that user login successfully and launched on the home page - system display 5 modules 
+
+---------
+ test case ID: can02 
+  test scenario : login as a student
+  test environment : qa env, http://qa.canvas.com/login
+  test data : username: student1, student21,  student45,  
+              password: 123abc
+
+  test steps: 
+             step1: user go to login page
+             step2: user enter username & password
+             step3: user click login button
+             step4: verify that user login successfully and launched on the home page -> system display 3 modules 
+
+
+Are we the one that divide the user story to different scenarios or somebody will tell us which scenarios to test?
+
+    - most of time, qa/sdet create Test cases for his/her user story alone 
+
+    - in some company, there are BA who will do it together.
+
+        - after sprint planning meeting, BA and testers have a meeting to analyze test scenarios for all the user stories that should be completed within the sprint.  -> meeting name could be: test scenario review 
+
+
+
+
+--------------
+
+step1: user go to file download page 
+step2: user download a file
+
+
+----------------
+story -> user download a file -> 2 points == to complete in 2 days 
+
+AC: File Downloader" header should be displayed on the page 
+
+
+test case: 
+Summary: Displaying of "File Downloader" header.
+Test data:
+Environment:: http://practice.cybertekschool.com/download
+Steps:
+    Manual test case steps:
+    step 1: user goes to file download page
+    step 2: verify that "File Downloader" header is displayed
+
+
+
+when we test our test cases, do we have to check them in different devices?(Iphone, Ipad, Laptop, Desktop, etc...)??? 
+
+    - it depends on your project request 
+    - normally you need to test with 2-3 browsers 
+
+    - for the web-browser app, the laptop/device is the one that the company gave you. 
+
+    - for the mobile app, it also depends on the company. a company might give you only one type pf device to test , or both iphone & andriod 
+
+
+   - you cannot use your own computer. 
+
+
+
+
+------------
+for 1 user story, 3-5 test cases are common 
+
+
+
+----------
+User story: 
+      As a user, I want to download files so that i can save them in my local device. 
+Acceptance Criteria(AC): 
+1. "File Downloader" header should be displayed  
+2. All the required files should be displayed on the page
+
+
+should we have a test case about canceling the file download? it is not required in story or ANY AC? 
+   - we should ask from PO (if we have BA, we can ask from BA)
+
+-----------------
+
+abc@gmial.com  
+
+
+
+===================
+
+Gherkin language, several key words used in test case steps: 
+
+     Given -> the page that user should be 
+             Given user on the forgot password page
+
+     When  -> use it in the action 
+               When user enter email 
+
+     And -> extra actions
+              And user click retrieve password button 
+
+     Then --> result or verification part 
+              Then verify the confirmation message displays
+
+
+
+test case manual steps: 
+user go to forgot password page 
+user enter email & click the button
+verify the confirmation message 
+
+
+Given user on the forgot password page
+When user enter email 
+And user click retrieve password button 
+Then verify the confirmation message displays
+
+---------------
+
+User story: 
+   As a user, I want to download files so that i can save them in my local device.
+
+Acceptance Criteria(AC): 
+1. "File Downloader" header should be displayed  
+2. All the required files should be displayed on the page
+
+
+In some companies / teams, BA write the AC in Cucumber gherkin format with test scenario together. 
+
+
+User story: 
+   As a user, I want to download files so that i can save them in my local device.
+
+Acceptance Criteria: 
+   ac1 : 
+   Scenario : user download a file
+     Given: User on the  file downloads page
+     Then: Verify "File Downloader" header is displayed
+     Then: Verify all the required files are displayed on the page
+     When user Click on the name of the file that need to be downloaded -> test.pdf
+     And: user Click on the "Save" button in pop-up window  (Mac)
+     Then:Verify that the name of the file is displayed in the local folder 
+
+
+
+
+bug duplicated example: 
+my story -> create a file 
+
+your story -> export a file to different file version 
+
+we can a common step to perform testing, e.g: click "file" button , that button is not working , then we bot created a bug report about it. 
+
+
+-------------
+
+bug life cycle -> start testing == test execution 
+                  found a valid bug -> have to perform the testing with at least 3 different data & different env if possible to confirm 
+
+                  New bug 
+
+                  bug report 
+
+                  assign the bug report to someone 
+
+                  open the bug 
+
+                  fix 
+
+                  postpone - deferred == fix the bug later 
+
+                  I will re-test the bug after it's fixed 
+
+                      - has fixed? -> done 
+                      - still has issue / bug? /not fixed --> re-assign to dev 
+
+
+                   dev might reject the bug -> 1. invalid 2. duplicated 
+
+
+what is the difference re-testing and regression testing? 
+
+     - regression -> testing the all old & new functions before the release, and I have around 700 TC in my regression 
+
+     - re-test is just test one function that has a bug , fixed by dev , by re-testing / testing again i need to confirm the bug is fixed/removed. 
+
+
+
+After the bug fixed and we start to test for the second time. Is it going to be the same test case or we write a new one? 
+
+   - it depends . 
+
+   1. use the same test case when there is no changes on steps 
+
+   2. Edit / make a changes the existing test case 
+
+
+
+
+
+
+
+
+
+
+
+

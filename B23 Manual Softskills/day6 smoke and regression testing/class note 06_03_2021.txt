@@ -1,0 +1,54 @@
+
+Smoke testing --> it is a type of Func - testing.
+               reason: QA team wants to make sure the application is stable.
+
+               how we perform smoke test? 
+
+               Step1: Select major features/functions of the app. 
+               Step2: Select scenarios --> @smoke
+               Step3: Decide smoke test time, frequency, report type, which environment to 			run? - QA env 
+               Step4: DevOps team schedule the smoke test job to Jenkins 
+
+               QA team members check emails of smoke test result. 
+
+
+               Details about my smoke test? 
+               - Runs everyday at 6 AM automatically ,and scheduled on Jenkins 
+               - I have 60 Scenarios which takes around 20 m
+               - I check my email before I start my day to see smoke test result. 
+
+
+Regression testing —> 
+
+
+the app has 700 scenarios by now - Menu, login, delivery, location, online order 
+
+
+the client wanted a new feature, and developer already build it and performed Unit & integration testing. 
+
+
+05 Jun - 30 July --> the new feature 
+
+
+Aug -> we are done with the new feature testing. 100 scenarios. 
+
+regression testing -> 700 scenario + 100 scenario 
+                     run all the 800 scenarios -> 10 hours 
+
+                     1VM
+                     800 
+
+                     1vm     2vm    3vm  --> 4 hours
+                     266     266    266
+
+
+
+
+
+
+
+
+
+
+
+

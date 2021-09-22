@@ -1,0 +1,289 @@
+09/03/2021 
+
+
+Agenda: 
+1. new project - lirary Domain
+
+2. assignment -> manual & automation testing , individual 
+
+3. interview with Mucahit 
+===================================
+
+who prepare user stories? 
+
+- PO 
+
+does AC - Acceptance Criteria comes with Story? 
+- Yes 
+
+Who writes AC? 
+- PO 
+- or BA 
+
+
+Example: PO write the Story & AC
+story: as a user, i want to login. 
+AC: 1. user login successfully 
+    2. login page title should be "CRM"
+    3. There should be login button on the bottom of the page
+    4. "forgot password" link should be displayed 
+    5. "invalid username or password"
+
+
+Example: PO write the Story, BA write the AC in my team 
+
+BA -> collect requirement from the client with PO
+      assistance of PO 
+      could be a technical person 
+      work more closely with QA team then PO 
+
+PO: 
+story: as a user, i want to login. 
+
+BA: writing the AC with Gherkin language, and providing both positive & negative scenarios. in this situation, 1 AC will be 1 test case. 
+
+Gherkin language: given, when, then, and, 
+
+
+AC#1: 
+     Given user on the login page
+     Then verify the title "CRM"
+     When user enter valid username "test@gmail.com"
+     And user enter valid password "password"
+     Then verify that user login successfully  
+
+AC#2: (negative)
+     Given user on the login page
+     When user enter invalid username "@gmail.com"
+     And user enter invalid password "abc1"
+     Then verify that the system display "wrong password or username" 
+===============================
+
+NextBaseCRM -> company name 
+
+    
+                   PM                                      PM
+      project1              project2                   project3
+       PO 
+       BA                   PO                         PO
+    project: CRM                                       BA
+       Agile-team-QA         agile                      agile1 
+       DevOPS                performance                agile2 
+       Performance                                    performance
+       support team                                  cloud architect team
+==================================================
+
+have you ever went to a library? 
+- yes 
+
+have you ever used a library software ? 
+- yes / no
+
+what kind of feature does the app has? 
+
+ - search books / materials 
+ - login to your own account 
+
+ - make a reservation for library study room 
+ - borrow books with the app 
+ - buy book - the library deliver it 
+
+=============================
+tell me about your project: 
+
+Company name: LibraryCT 
+               - provide LMS project 
+
+project name: LibraryCT 
+              
+              users: Librarian 
+                     student 
+              
+              feature : manage users and books 
+                       searching books, brow books 
+                       time tracking - date & time, status of return 
+
+              Role : 2020 - UI/FrontEnd 
+                     recent 8 months , mainly performing API
+
+QA environment : QA2
+
+
+can company name and project name are the same? 
+- yes, 
+
+==================================
+
+bug == error == defect == mistake == unmatch == unexpected result 
+
+
+
+===================================
+
+1. we do not complete the sprint 1. just move all CRM related tickets inside. 
+
+
+
+2. How Do I know if I created correct tickets for CRM assignment? 
+
+    - compare with Asiya's tickets on jira - Jira sample project 
+    = all 14 user stories has test cases + test execution. 
+
+
+3. how do I know if I did correct or not in this Library assignment? 
+   
+     - this assignment has 2nd part. after that, each student will demo to their mentors. 
+
+test case types: positive 
+                 negative 
+
+test case steps: manual step 
+                 cucumber step + gherkin language 
+
+
+====================
+at work: PO/ BA creates US & AC.
+
+at cybertek, for this library project assignment, Instructor is asking you to create US& AC on jira to practice. 
+
+
+
+
+
+story analyze done 
+test case is done 
+env is ready?  the functionality that you are going to test is deployed from Dev to your QA env 
+
+test execution : manual & automation 
+
+              how do we manually test UI/frontend function ? 
+
+                  - create test execution on jira -xray 
+                  - add my all test cases to it 
+                  - flow my test case steps & provide screenshot 
+
+                  after mvn project creation, just follow the Selenium class package & class rule. 
+
+                  each test case == 1 class 
+
+
+ex: 
+Given librarian is on the loginPage 
+         get("url") 
+
+Then verify that the title is “Login - Library”  
+        expectedTitle = “Login - Library” 
+        actualTitle = driver.getTitle() 
+
+       if(driver.getTitle().equals("Title")) {
+            System.out.println("match");
+        }else{
+            System.out.println("no match");
+             System.out.println(expectedTitle ==)
+             System.out.println(eactualTitle == )
+        }
+
+When librarian enters valid email address and password ]
+
+         email = findElement (id="inputEmail") 
+         sendKey() -> librarian23@library.com
+
+       password = findElement (id="inputPassword") 
+         sendKey() -> sdet2022*
+
+
+And librarian click sign in button  
+       click() 
+
+Then verify that there are 3 modules the page
+           <list>String expectedModules = {"Dashboard" , "Users", "Books" };
+
+           List<webElements> actualModules = driver.findElements(id="menu_item);
+
+                 getText() 
+
+
+Given user is on the loginPage 
+ get 
+When user enters invalid email address or password 
+
+          email = findElement (id="inputEmail") 
+         sendKey() -> test@gmail.com  
+
+       password = findElement (id="inputPassword") 
+         sendKey() -> 123
+
+And student click sign in button  
+
+         click()
+Then verify the error message “Sorry, Wrong Email or Password”
+              
+
+
+name convention -> java package rule , you have to write com.company name 
+                   
+                   package name - lower case
+                   class name   - upper case
+                   method name  - lower care
+                   variable name  - depends 
+
+                   group ID = company domain coms first then name 
+                               org, io, com, net gov 
+                   artifact ID = lower case
+
+                    
+
+verify if a new user is created : 
+
+
+1. right after login - take the number of total users from homepage 
+
+            String beforeAddingNewUser = driver.findElment(id).getText();
+
+2. after created the user, then take the total users from homepage 
+
+       String afterAddingNewUser = driver.findElment(id).getText();
+
+       if beforeAddingNewUser - afterAddingNewUser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

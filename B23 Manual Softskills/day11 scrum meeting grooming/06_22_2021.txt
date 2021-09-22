@@ -1,0 +1,149 @@
+06/22/2021 
+
+Good morning 
+
+Afternoon will be Java 
+
+Today's agenda: 
+		review scrum roles
+		new -> scrum meetings & some keywords 
+
+Review: 
+Scrum: software management methodology
+       Scrum is one of the most used branch / framework 
+
+
+       short time , gather feedback from client always  
+
+Sprint: a time box   1 week - 4 weeks
+        the most common used sprint cycle is: 2 weeks 
+        no changes 
+
+
+Scrum roles: 1. PO -> represent the Client 
+                      gather req -> User story 
+                      prioritize the req/stories 
+                      maintain the Product backlog 
+
+             2. SM -> facilitator 
+                      daily stand up , retro are hosted SM
+                      SM remove the block/impediments/problems
+
+             3. Dev team -> Developers & testers
+
+1 po, 1 SM, 2 dev, 1qa -> 5 ppl 
+
+1PO, 1SM, 4 dev 3 qa -> 9 PPL 
+
+
+1 project -> 1 Scrum team, 1 DevOps, 1 UAT team, 1 performance team
+
+do the other teams use scrum methodology too ? 
+- yes 
+
+user story: req, the smallest version 
+
+         As a <user>, I want to <do sth>, so that <benefit>
+
+         e.g: As a teacher, I want to create a channel on Discord app so that I can communicate / send message to all the students at once. 
+
+              As a user, I want to send message so that I can communicate. 
+
+
+Before grooming: 
+    PO write user stories & Acceptance Criteria
+    PO prioritize the stories in Product backlog  
+
+
+During the Grooming : 
+   Po explains each story and its AC 
+
+   Estimate user story effort time / giving points to stories
+
+
+
+How to give point to a story? 
+
+step 1. PO explain the story & AC
+step 2. Dev team ask question 
+step 3. give point - at work, use Agile card 
+                online grooming, use the communication app  
+
+    3 Dev: Ahmat -> 5 days to develop
+           Mousa -> 3 days to develop 
+           Mr.wang -> 5 days to develop
+               eventually agree with 1 number -> 5 days / points
+
+     2 qa : Komiljon -> 2 days to test
+            Matt -> 2 days to test
+                for qa team -> 2 days / points
+          
+                total this story is going to take: 8 days of time == 8 points
+
+
+    login -> developers : 2 points 
+             qa         : 5 points , 3? 
+
+             total      : 8 points
+       
+
+  2 weeks == 10 days
+  2 weeks == 8 days to work on the story 
+
+first day -> just take time to analyze stories / prepare test case etc doc
+last day is Demo, dev team do not work on any story 
+
+
+
+
+   1 week == total 5 days to work , only 3 days to work on stories 
+
+
+
+Fibonacci method: the most used one to estimate the user story point
+
+          1,2, 3, 5, 8, 13, 211.Image, Developers give 5 days tester give 3 days. If developers deploy the code lately, What do we do? ...  
+
+
+         Only use the number that is appeared in the Fibonacci 
+
+         e.g. -> there is no 4 , so we do not give 4 points .
+
+
+         1 point can be represented many hours / days. 
+
+   1 point = 1 day 
+
+   1 point = 4 hours , or 2days(12-16 hours)
+
+
+
+  5 points == 5 days to develop & test 
+
+
+Grooming meeting-> Scrum team go over / review / define each user story to understand it. Giving points to the stories. 
+
+PO explains the story and AC. 
+
+
+
+
+what do testers do while waiting for developers to finish their part?
+ - write test case documents 
+
+
+1.Image, Developers give 5 days tester give 3 days. If developers deploy the code lately, What do we do?
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

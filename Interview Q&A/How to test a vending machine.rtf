@@ -1,0 +1,274 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf840
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-BoldItalic;
+}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red27\green31\blue35;\red0\green0\blue0;
+\red12\green99\blue153;\red133\green0\blue67;\red255\green255\blue255;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c14118\c16078\c18431;\cssrgb\c0\c0\c0;
+\cssrgb\c0\c46667\c66667;\cssrgb\c60000\c0\c33333;\cssrgb\c100000\c100000\c100000;\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww11760\viewh11760\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 How to test a vending machine
+\fs28 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\sl120\slmult1\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\sl560\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Vending machine is a unit which provides food/drink in exchange of payment.\'a0\
+\pard\pardeftab720\sl120\slmult1\slminimum320\partightenfactor0
+\cf2 \
+- first of all, I need to know and understand the reqs clearly, analyze those reqs and then think about what and how to test? \
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f1\b \cf3 \ul \ulc3 \outl0\strokewidth0 1.Requirements
+\f0\b0 \ulnone \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum180\qj\partightenfactor0
+\cf3       - vending machine provides snacks only\
+\
+\pard\pardeftab720\sl120\slmult1\slminimum240\qj\partightenfactor0
+\cf3       - item is selected by pressing corresponding button on 				the keypad\
+\pard\pardeftab720\sl120\slmult1\slminimum180\qj\partightenfactor0
+\cf3 \
+      - both credit cards and cash are accepted\
+\
+      - user can select only 1 item at a time\
+\
+\pard\pardeftab720\sl120\slmult1\slminimum240\qj\partightenfactor0
+\cf2 \outl0\strokewidth0 \strokec2  \
+\pard\pardeftab720\sl200\partightenfactor0
+\cf2 2.
+\f1\b \ul  After analyzing reqs I will create a test plan doc
+\f0\b0 \ulnone  with test schedule/scope of testing (list of the testing types), resources, responsibilities, risks & mitigation.\
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf2 \
+For testing types it could be:\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f1\b \cf3 \outl0\strokewidth0 Functionality testing:
+\f0\b0 \
+      		- purchase an item\
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3 			\cf3 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf3          \cf3 \ul \ulc3  	- valid purchase \cf3 \ulnone \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum200\partightenfactor0
+\cf3                  - buy a product with valid payment method \
+\pard\pardeftab720\sl120\slmult1\slminimum200\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum200\partightenfactor0
+\cf3                  - credit card - debit card -\cf3  cash\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum200\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum200\partightenfactor0
+\cf3                 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf3        \cf3 \ul \ulc3    	- invalid purchase\cf3 \ulnone \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3     - invalid payment method by card [unacceptable card, \
+		expired card, different currency card\
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3     	 - insert less amount of cash: should display message\
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3       - two or more buttons pressed together\
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3       - select invalid product: should display appropriate message \
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3       - select a product out of stock: also should display 					appropriate message \
+\
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+
+\f1\b \cf3 \ul \ulc3   
+\f2\i \cf2 \ulc2 Usability testing\'a0\
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+
+\f0\i0\b0 \cf3 \ulnone \
+\cf4 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 	- vending machine has proper buttons\
+\pard\pardeftab720\sl380\partightenfactor0
+\cf4 	- check \cf5 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 if\cf4 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  it has\cf6 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  0-9\cf4 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  numbers to select items\
+	- check \cf5 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 if\cf4 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  it has coin \cf5 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 return\cf4 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  \
+	- dispenser \cf5 \shad\shadx0\shady-20\shadr0\shado255 \shadc0 for\cf4 \shad\shadx0\shady-20\shadr0\shado255 \shadc0  hands to fit in to take the product out\
+\cf3 \shad0 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f1\b \cf3 	Performance testing:
+\f0\b0 \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl144\slmult1\partightenfactor0
+\cf3   - order processing time\
+\pard\pardeftab720\sl192\slmult1\partightenfactor0
+\cf3 \
+  - \cf2 how many transactions can this machine handle in a day?\cf3 \
+\pard\pardeftab720\sl144\slmult1\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl144\slmult1\partightenfactor0
+\cf3   - time out during transactions \cf3 -> should display a message and 		return amount\
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\f1\b \cf3 Security testing:
+\f0\b0 \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3   - product security : is there a machine door lock/ is there alarm\
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3   - cash and card security\
+\pard\pardeftab720\sl480\partightenfactor0
+\cf2   - what happens if the machine falls down/stolen/broken\
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+
+\f1\b \cf3 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf3 Load testing:\
+\
+\pard\pardeftab720\sl480\partightenfactor0
+
+\f0\b0 \cf2   - What happens if the machine is used by 1000 people or more within 1 hour\
+  - What happens if everyone inserts coins, how much coins can be collected inside the machine\'a0\
+\pard\pardeftab720\sl400\qr\partightenfactor0
+
+\f1\b \cf3 \
+\pard\pardeftab720\sl400\partightenfactor0
+\cf3 Visibility testing:
+\f0\b0 \
+\pard\pardeftab720\sl400\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3   - alignment of the product \
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3   - night or day time light\
+\pard\pardeftab720\sl120\slmult1\slminimum260\qr\partightenfactor0
+\cf3 \
+\pard\pardeftab720\sl120\slmult1\slminimum260\partightenfactor0
+\cf3   - text display: text size, font, font color\cf2 \
+\cf2 \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl560\partightenfactor0
+
+\f1\b \cf2 \ul \ulc2 3. Then I prepare test cases 
+\f0\b0 \ulnone -> \
+	I definitely prepare both positive & negative test cases \
+			
+\f1\b\fs28\fsmilli14160 \cb7 Positive test cases:\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f0\b0 \cf2 	\'95 cash and 
+\fs28\fsmilli14160 \cf2 \cb8 \outl0\strokewidth0 credit cards accepted
+\fs28\fsmilli14160 \cf2 \cb7 \outl0\strokewidth0 \strokec2  \
+	\'95 keypad is working\
+	\'95 appropriate change delivered\
+\
+			
+\f1\b Negative test cases:
+\f0\b0 \
+	\
+	\'95 What if I entered invalid code\
+	\'95 What if I don\'92t receive a change\
+	\'95 What if keypad does not work
+\fs28 \cb1 \
+\pard\pardeftab720\sl120\slmult1\slminimum200\partightenfactor0
+\cf2        \
+\pard\pardeftab720\sl560\partightenfactor0
+
+\f1\b \cf2 4. \ul Test environment:
+\f0\b0 \ulnone \
+	Then I will make sure my QA environment is set up. \
+\pard\pardeftab720\sl120\slmult1\slminimum200\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl560\partightenfactor0
+
+\f1\b \cf2 5. 
+\f0\b0 After that I start my 
+\f1\b \ul testing
+\f0\b0 \ulnone  and 
+\f1\b \ul execute my test cases
+\f0\b0 \ulnone  by comparing the expected result and actual result. \
+\pard\pardeftab720\sl120\slmult1\slminimum200\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl560\partightenfactor0
+\cf2        if expected and actual results match, then my test is done \
+       if expected and actual results do not match, I consider it a 			bug and create a bug report, the bug will be handled based on 		Bug Life Cycle\
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sl560\partightenfactor0
+
+\f2\i\b\fs32 \cf2 \outl0\strokewidth0 Example:
+\f0\i0\b0\fs28  
+\f1\b test case #1: 
+\f0\b0 \
+           \ul test scenario:\ulnone  user pay with cash \
+           \ul pre-condition:\ulnone  machine is on and working properly, has items inside\
+           \ul test data:\ulnone  $1 2 5 10 20 100 \
+           \ul test environment :\ulnone  the vending machine\
+           \ul test steps:\ulnone  1. select an item \
+                       2. enter the cash \
+                       3. verify that the machine accept the money  \cf2 \outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl560\partightenfactor0
+\cf2 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}

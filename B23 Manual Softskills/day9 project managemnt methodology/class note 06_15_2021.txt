@@ -1,0 +1,127 @@
+class note 06/15/2021 
+
+
+Agenda for the 2-3 weeks : Project management methodologies 
+                            Waterfall 
+
+                            Agile 
+
+                            Agile-Scrum -> Scrum role, meetings, artifacts
+
+
+SDLC to build / create / develop software
+
+
+Education methods : 1. Quarter -> 4 quarters in a year , 
+                    2. Semester -> 2 Semester in a year 
+
+
+1970s -> software industry 
+
+1. req gather -> PO / business team gathered req from the client 
+                  waterfall-> req for the entire app 
+
+
+                  agile - short/ small req -> login/out, menu 
+
+
+                  plan -> release after 2 years  June/2023
+                           1. req -> 5mth 
+                           2. design - 3mth 
+                           3. code -> 6 month
+                           4. test -> 6 month 
+
+
+2. Design -> designers 
+              plan -> 2 weeks to analyze project/req
+                      1 month - sds 
+                      1.5 -> design 
+
+
+3. Develop/code -> developers 
+              plan -> 3-4 weeks to analyze the req/design 
+              action : develop the app + unit & integration testing 
+
+
+4. testing -> testers -> QA/SDET, performance testers , cyber security
+              plan -> who test which functions? when to start? end? tool? testing types? 
+
+bug -> how to deal the bug report?  
+
+
+              the client -> UAT testing 
+
+           1. the client spend more time & money -> let developers fix the app
+           2. the app will be released -> will fix the bug during the maintaining step 
+
+
+5.deploy 
+
+
+6. maintainance -> fix the bugs -> 
+
+
+Bank of America in VA-> 7 projects -> follow the same methods 
+
+
+dev + qa   <--   PO   <-- the client
+
+
+dev + qa   <-- the client
+
+
+
+break time: 4: 18 pm 
+
+
+registor 
+menu
+logout 
+login 
+
+registor - designer -> deve-> registor -> testers
+
+========
+next weeks plan
+Scrum definition 
+Scrum role
+Scrum meetings 
+Scrum artifact
+
+
+Agile-> Scrum 
+         team -> PO , Dev+QA , Scrum Master (SM)
+         5 meetings 
+         
+         short time == > the time to meet the client 
+         1 - 4 weeks 
+
+Agile-> Kanban 
+       team -> PO, PM, BA, Developers, AQ/SDET, designers, performance team, devops
+
+
+KT -> knowledge transfer session 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

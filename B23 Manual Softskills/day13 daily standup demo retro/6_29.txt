@@ -1,0 +1,168 @@
+06/29
+
+      Scrum : 
+
+      Scrum 3 roles : PO , SM, Dev team 
+
+      Scrum 3 artifact : 		
+			
+			 1. Product backlog -> there is only 1 
+                                               PO wrote user stories & store them 
+
+                         2. Sprint backlog -> 1 SB per sprint 
+                         					SM creates / starts / ends a sprint backlog
+                                              SM & dev team responsible manage the SB 
+
+                         3. Burndown chart -> report , sprint report 
+
+                                              total amount of points that burns each everyday 
+
+                                              reminds the dev team remainder work amount / story points
+
+                                              SM opens and shows this during the daily stand up 
+
+
+      Scrum 5 events / meetings : 
+
+                1. Grooming 
+
+                        - PO explains each user stories 
+                        - Dev team + PO -> estimate points 
+
+                        - estimation based on - Fibonacci scale
+                            1,2,3,5,8,13,21 
+
+                        attendee : Scrum team
+
+
+                2. Sprint planning -> take / pull stories from product to sprint backlog 
+
+                        - SM creates Sprint backlog 
+
+                        - Scrum team figure out : what exact user stories to work on during the sprint? how many points we  				can finish n this sprint? 
+
+                        - answered depends on team capacity
+
+                        - team capacity == points that team can finish a sprint 
+
+                      e.g.: 3 dev 2 qa --> total team capacity = 40 
+
+                     sprint1; dev1- 1 day off 
+                              QA2 - 2 days off 
+
+                              40 - 3 = 37 
+
+
+                      sprint2: no day off 
+                                team capacity = points - 40
+
+
+
+     team capacity : total work availability of dev team in a sprint
+
+
+     in Sprint planning: 
+
+                    - some team leaders assign user stories /tasks to specific team members during the meeting 
+
+
+                    - people just randomly take user stories to work on 
+
+
+     Sprint backlog -> list of stories that should be done during a sprint / current sprint 
+
+                Daily stand up 
+                Demo 
+                Retro 
+
+    
+      1  user story --> 3 points 
+
+      1 point = 1 day 
+
+      3 points = 3 days effort to Develop & test == 2 days to develop + 1 day to test 
+
+     
+      1 project 
+
+             1 PO      ST        DevOps team     performance team   ST   UAT designer 
+
+
+
+	On the sprint plain meeting,  the SM (she/he) has one day off. Who is handle SM responsible on the day?
+
+  	- in my team ,BA / PO handle it 
+
+
+		dev team -> 3 dev & 2 qa --> one of them is a team/tech lead 
+
+            	8 dev -> tech leader 
+            	5 qa  -> qa team leader / qa manager 
+
+
+
+MY stand up meeting : 10 : 00 AM 
+
+           Attendee : SM -> host 
+                     dev team -> 3 questions
+
+
+ 
+ before 10am, each developer & qa has to open the Scrum board , prepare their 3 question's answer 
+
+     1.what did I do yesterday / last business day ? 
+
+       - RAS-1
+
+
+     2.what i am going to do today ? 
+       - RAS 10 
+
+
+     3.is there any problem? 
+      - no 
+
+
+		3. DEMO: 
+
+	Attendee possibilities : 
+
+
+	1. Scrum team members : PO, SM, Dev team 
+
+                       - PO represent the client to give feedback / accept/reject users stories 
+
+                       - each dev team member demo about what she/he has done 
+
+                       - PO based on the team's DOD accept/reject a story
+
+
+	2. Scrum team + stakeholder (the client, investors )
+        
+            		- stakeholder will give feedback 
+
+
+	3. Scrum team + stakeholder + PM 
+
+
+	4. Scrum team + other team (UAT, performance ) + stakeholders + PM
+
+
+	5. Scrum team + entire team members in the company 
+
+         		- instead of each person do demo in this kind of big members 
+        		- one person from the dev team / scrum team  demo -> team lead , BA
+
+
+
+
+
+
+
+
+
+
+
+
+
+

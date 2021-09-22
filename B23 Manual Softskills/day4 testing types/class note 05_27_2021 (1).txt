@@ -1,0 +1,118 @@
+class note 05/27/2021 
+
+Today's agenda: 
+
+  - What is software testing? 
+  - Static testing vs Dynamic testing 
+  - Verification precess  vs Validation process 
+  - Dynamic testing types == Software testing levels 
+         - unit testing 
+         - Integration testing
+         - System testing
+         - User Acceptance Testing (UAT)
+
+
+ expected result == cleint's requirement 
+ actual result == the output / actually result after performing testing
+
+
+Static testing: testing documents , no codeing , performed manually
+
+
+Dynamic testing: testing code and software
+                 performed manually & automaticlly 
+
+
+
+
+Verificatoin process : process of prepare documents, testing it(perform static testing) 
+
+
+Validation process: process of write code, and test it (dynamic test)
+                    
+              e.g:  a frontend developer wrote code to build a login feature
+                    then he/she performed dynamic testing to test the code 
+
+
+
+
+who perform the static testing? 
+    - whoever wrote a document, and all the poeple are related to the document.
+
+    e.g: 1. in requirement gathering step, business team & client perform static testing 
+
+         2.  in deisgn step, designers and client, maybe busniess team also perform static testing 
+
+
+
+
+
+
+go to goole -> varify that user can go to facebook after google page 
+
+
+
+interview with Atilla 
+
+- tell me about yourslef ? 
+appritiate the time/interview opportinity 
+no it experience / month/year experience
+you main prgramming language -> java
+your personality a bit -> 
+
+
+
+What is SDLC ?
+
+Do you have experience performing Dynamic testing? 
+	- yes 
+	- Dynamic testing means test the code and the application which is my role and responsibility at work.  
+
+what are the levels are there in Dynamic testing: 
+
+Can you perform integration testing without performing unit testing?
+
+    unit            develoeprs
+    integration     develoeprs
+
+    system          SDET, performance tsters, client
+    UAT             SDET , Client , end users 
+
+
+which programming language do you know? 
+- java
+
+
+which version are you using? 
+
+ - v8 
+
+variable types in java? 
+
+2 types : 1. primitive  
+             - int char double long short byte float
+
+          2. non-primitive
+             - String
+
+
+why you are looking for a job?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

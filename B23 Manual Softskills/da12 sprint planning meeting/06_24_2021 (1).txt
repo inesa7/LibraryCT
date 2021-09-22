@@ -1,0 +1,155 @@
+06/24/2021
+
+
+Review : 
+
+1. Agile is the most famous software / project management methodology 
+
+     Agile has many frameworks / branches : Scrum, Kanban, XP, Lean, etc...
+
+     Virginia state == Fairfax, Chantilly, Alexandria 
+
+     Agile != Scrum 
+
+
+2. Scrum is of the types/branches /frameworks of Agile
+
+     Scrum-ban == Scrum + kanban 
+
+   Scrum 3 roles : PO, SM, Dev team (dev & qa)
+  
+   Scrum 5 events / meetings : Grooming meeting 
+                               Sprint planning meeting 
+
+
+   Scrum 3 artifacts :  1. Product backlog
+   							there is one only PB for one project 
+                             PO owns the PB 
+                             PO stores the Users tories , other tasks
+                             PO prioritize the stories 
+                             any changes for req is welcome 
+
+
+                        2. Sprint backlog
+                        	there are many SB 
+                        	for each sprint, we have 1 SB
+                        	changes are not welcome 
+                        	SM and dev team use / manage the SB
+
+
+
+    
+Key words : Sprint - time box  1 week - 4 weeks, 2 weeks is the most chosen sprint
+
+
+Grooming meeting --> 
+            Before the Grooming: PO write/prepare user stories & its AC 
+            					 PO prioritize stories  
+                                 Stories are stored in product backlog
+
+            During the Grooming: Scrum team = SM, PO , Dev team
+                                 PO explains the Stories & ACs 
+
+                                 Estimate story points (optional)
+
+story estimation: Fibonacci system is the most common used method
+                  1 2 3 5 8 13 21  
+
+                  1 point = 1 day work
+                  1 point - 2 hours , 4 hours, 6 hours, 8 hours, 12, 16 hours
+
+ 
+            After the grooming what is the output? 
+               1. Dev team understood the user stories & AC
+               2. Each story is sized / given points 
+               3. Now the Product backlog is full of pointed user stories & all of them are prioritized
+
+Who decide the story points? 
+
+1. PO ask to give points, and Developers & testers give points
+
+2. PO & Developers give points (there is no testers involved estimation)
+
+
+
+
+
+
+ Jira is app/software that IT companies use to manage project- work hours, documents like user story, bug report, test cases, test results, sprint activities, and scrum artifacts. 
+ We will have Jira class soon, after you will have it to practice until you 'll graduate.
+
+
+Sprint planing : conducted in the 1st day of sprint
+
+During the sprint planning: 
+    Step1: SM creates a sprint backlog in Jira 
+    Step2: How many story points we can finish in this sprint? 
+         - SM asked each person's availability for the sprint
+         - SM ask question "do you have any day off? "
+             Original team capacity : [ (dev num + QA num) * 8 days ] 
+
+         - based on that , calculated the team's capacity 
+   Step3: PO/BA takes the stories from backlog to sprint backlog 
+   Step4: start the sprint 
+           - SM click the button "Start sprint" on jira 
+           - SM /PO write sprint Goal , choose the sprint starting & ending dat 
+
+
+
+
+
+
+Product backlog -> user stories, tasks that needs to done to work on a project
+                   There is only 1 PB
+
+sprint backlog -> exact tasks (stories, bug..) needs to be done during the current sprint 
+                 1 SB per sprint
+                 SM created SB in the sprint planning meeting 
+
+
+
+
+How many stories a team can finish in a sprint? 
+- this is a wrong question. 
+
+How many story points we can finish in a sprint? 
+
+
+ 1 sprint == 2 weeks == 10 days 
+
+     Dev team can work on user stories only in 8 days. 
+
+    1st day of each sprint - planning meeting, analyze user stories, assign task
+    last day-> Demo meeting 
+
+    
+Team capacity : total work availability in a sprint 
+
+
+        3 dev , 2 qa , 2 weeks , what is their team capacity? 
+
+        (3+2) * 8 = 40 days
+
+        8 dev , 4 qa -> (8+4) * 8 = 96 team capacity
+     
+
+
+
+
+
+who transfers them from product backlog to sprint backlog???
+- PO 
+- Could be BA 
+- OR SM ? ? 
+
+
+
+
+
+
+
+
+
+
+
+

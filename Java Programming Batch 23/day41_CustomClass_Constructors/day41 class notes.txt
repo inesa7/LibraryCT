@@ -1,0 +1,48 @@
+08/09/2021
+Topics: static import
+		Constructors Intro
+
+Package name: day41_CustomClass_Constructor
+
+
+static import vs regular import
+	
+	regular import:imports everything from the class
+		import PackageName.className;
+		import PackageName.*;
+
+	static import: used for importing static members of the class ONLY
+		 import static PackageName.className.staticMember;
+		 import static PackageName.className.*;
+
+
+regular methods: function
+	
+	Access-Modifier   Specifier  Return-Type  methodName(Parameter){
+
+	}
+
+
+Constructors: Special method. every class MUST have constructor
+			used for creating the objects of the class
+
+			execution o constructor depends on the object
+
+			syntax:
+				Access-Modifier className(Parameter){
+
+
+				}
+
+object:
+	new ExistingConstructor
+
+	Dog:
+		new Dog()
+
+for this week:
+	Constructors
+	Garbage collections
+	OOP Encapsulation
+
+

@@ -1,0 +1,163 @@
+class note 05/18/2021
+
+Instructor : Asiya 
+
+Teaching experience : from B11 - b23
+
+
+FlipGrid assignment: answer "tell me about yourslef" question 
+
+Open Okta 
+Click Canvas 
+Click - B23 manual QA,softksill course 
+the first module -->slide and recording from Orientation day
+                    you can find the detail information of how to use Flipgrid 
+
+
+any questions relates to Flipgrid or groups can be handled by Mike or Omer 
+
+=================
+
+software == applications == apps == projects == program 
+
+
+operating system : IOS , Windows,  Linux 
+
+
+browsers: chrome, safari, firefox, Internet explore (IE), Edge, Opera 
+
+
+End-user : a person who used a software 
+
+           game to learn A b c ..z -> end users are children, or it can be someone who learn English
+
+           canvas - end users are: school employees  , you are end users 
+
+           zoom: whoever use the zoom app is an end user 
+
+                 Eric Yuan is founder of zoom , or stakeholder 
+
+
+Client : app / software owner , the app idea is from the person 
+         
+
+feature : search an item in amazon 
+
+function : 1. you type item name on the search box 
+          2. you can click an item picture from the home page
+          3. go to Best seller module - 
+        
+
+features of discord app: 
+    create / delete channel 
+    text 
+    emoji 
+    search message / users 
+    pin 
+    create ticket 
+    add/delete/edit users 
+    download / upload file 
+
+
+functions of discord app's create / delete channel feature - 1. click create channel button - write channel name - assign role + add users 
+
+
+-----------
+
+find a class recordings / materials feature on Canvas 
+
+functions : open the Canvas - choose a course (java or QA ) - click home / moudles 
+
+
+---------------
+
+feature : chat / communicate 
+
+             1.1 text message 
+             1.2 voice message / call
+             1.3 video message / call
+
+
+function : 1. type text message 
+           2. click "Enter" "return" keyboard 
+
+           
+-------------------
+
+finding class note from Muhtar from Canvas 
+
+feature : search materials 
+
+function : 1. go to Canvas homepage 
+           2. click "java programming" course 
+           3. go to "home / modules"  module
+
+
+================
+
+summary : 
+
+software types: mobile  application  - instagram
+                web application      - amazon , zoom 
+                desktop application   - office , calendar, notes 
+                hybird / cross-platform - amazon , youtube , discord 
+
+
+ browser types: chrome, Firefox, safari, IE, edge 
+ 
+ operating system  : Linux, windows, IOS 
+
+
+ people's tile you will work with : PM,  PO, BA, develoeprs, designers, devOps team members, QA , stakeholders           
+
+
+stakeholders : Client , customer , CEO , 
+
+
+end user : target users of a project 
+
+
+release : apple - release a new feature once a year == release cycle is 1 year
+
+          Cyber-punk - initiate release == version 1.0 
+
+          bank of America - debit card project - release every 3 months 
+
+                            credit card project - release every 6 months
+
+          homescape -- release cycle is 1 week 
+
+                       v1.0 - 100 levels 
+                       v2.0 - 40 levels 
+                       v3.0 - 40 levels 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
